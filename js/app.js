@@ -150,9 +150,14 @@ function resetForm() {
   startApp()
 
   const done = document.querySelector("p.done")
+  const error = document.querySelector("p.error")
 
   if (done) {
     done.remove()
+  }
+
+  if (error) {
+    error.remove()
   }
 }
 
